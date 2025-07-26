@@ -34,3 +34,10 @@ puts basket.total
 - Discounted items are represented as separate product codes (e.g., `'R01_DC'`).
 - No two offers conflict with each other on `from`/`to` product codes.
 - Product codes are assumed to be valid if they exist in the `PRODUCTS` list.
+
+## 🧪 Testing
+
+```sh
+bundle
+rspec basket_spec.rb
+```
